@@ -13,12 +13,18 @@
 
 ## Overview
 
+Dana’s webpage and dynamic table are working as intended, but she’d like to provide a more in-depth analysis of UFO sightings by allowing users to filter for multiple criteria at the same time. In addition to the date, you’ll add table filters for the city, state, country, and shape.
+
 ## Resources
 
-- Data Sources:
-  - [file links)
+- Data Source:
+  - [data.js](https://github.com/catsdata/UFOs/blob/main/static/js/data.js)
 - Software:
-  - *ADD MORE HERE*      
+  - VS Code
+  - JavaScript
+  - HTML
+  - Bootstrap
+  - CSS      
 
 ## Results
 
@@ -29,6 +35,10 @@
     - The filterTable() function loops through all of the filters and keeps any data that matches the filter values. (20 pt)
     - The webpage filters the table correctly based on user input. (20 pt)
     - Yeah.... that adds to 90, not 80.  smh
+
+**MAKE IT LOOK LIKE THIS**
+
+![sample](https://github.com/catsdata/UFOs/blob/main/static/images/challenge_example.png)
 
 - **Deliverable 2: A written report on the UFO analysis (README.md) (20 points)**
   
