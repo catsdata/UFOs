@@ -69,7 +69,7 @@ The table will again update as you delete your entries.
 
 In Summary, the table has been updated as requested to include filters for the city, state, country and shape of the anomalies.  
 
-One major drawback to the current coding is data types in the filter selections and table date.  The text in the table is all lowercase.  If you do a search on the state of California as "CA" rather than the table format of "ca", you won't get the expected results.  The date field is also very specific on the string entry.  If you do a search as 01/06/2010 rather than 1/06/2010, you lack results.   The data types of the table detail and filters should match for reduced entry error and confusion.
+One major drawback to the current coding is data types in the filter selections and table date.  The text in the table is all lowercase.  If you do a search on the state of California as "CA" rather than the table format of "ca", you won't get the expected results.  The date field is also very specific on the string entry.  If you do a search as the standard date format of 01/06/2010 rather than 1/6/2010, you lack results.   The data types of the table detail and filters should match for reduced entry error and confusion.
 
 Additional recommendations to make this filter table more user friendly:
 - Make the content of the filters a drop down using content from the table to remove free form aspect of entry.
