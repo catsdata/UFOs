@@ -28,7 +28,7 @@ Dana’s webpage and dynamic table are working as intended, but she’d like to 
 
 ## Results
 
-- **Deliverable 1: Filter UFO sightings on multiple criteria (80 points)**
+**The following changes have been made to accomodate the additional filters:**
     - The list element that creates the button is removed, and there are five list elements for filtering in the index.html file. (20 pt)
     - The event listener is modified to detect changes to each filter in the app.js file. (10 pt)
     - The updateFilters() function saves the element, value, and the id of the filter that was changed. (20 pt)
@@ -40,24 +40,16 @@ Dana’s webpage and dynamic table are working as intended, but she’d like to 
 
 ![sample](https://github.com/catsdata/UFOs/blob/main/static/images/challenge_example.png)
 
-- **Deliverable 2: A written report on the UFO analysis (README.md) (20 points)**
-  
-    **Structure, Organization, and Formatting (8 points)**
-    - There is a title, and there are multiple paragraphs. (2 pt)
-    - Each paragraph has a heading. (2 pt)
-    - There are subheadings to break up text. (2 pt)
-    - Images are formatted and displayed where appropriate. (2 pt)
-    
-    **Analysis (12 points)**
-    - The purpose is well defined (2 pt)
-    - There is a description of how to perform a search, with images. (4 pt)
-    - The summary addresses one drawback of this webpage (2 pt)
-    - The summary addresses two additional recommendations for further development (4 pt)
 
 ## Summary
 
-Upload the following to your UFOs GitHub repository:
-- The updated app.js file with the code for the challenge.
-- The updated index.html file.
-- The data.js file.
-- An updated README.md that has your written analysis
+In Summary, the table has been updated as requested to include filters for the city, state, country and shape of the anomalies.  
+
+One major drawback to the current coding is data types in the filter selections and table date.  The text in the table is all lowercase.  If you do a search on the state of California as "CA" rather than the table format of "ca", you won't get the expected results.  The date field is also very specific on the string entry.  If you do a search as 01/06/2010 rather than 1/06/2010, you lack results.   The data types of the table detail and filters should match for reduced entry error and confusion.
+
+Additional recommendations to make this filter table more user friendly:
+- Make the content of the filters a drop down using content from the table to remove free form aspect of entry.
+- Allow the filter boxes to float and follow the scroll of the table, so it moves with you as you scroll down.
+- Freeze the table header; so as you scroll, you still know which columns are which.
+- Add a "clear all filters" button for redoing a search.
+- Provide more data!  Two weeks worth of data is not very informative.
