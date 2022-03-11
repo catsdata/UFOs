@@ -15,7 +15,7 @@
 
 ## Overview
 
-Dana’s, a data journalist and UFO enthusiast, created a webpage and dynamic table to share UFO sighting information with others.  But she’d like to provide a more in-depth analysis of UFO sightings by allowing users to filter for multiple criteria at the same time rather than just the date of the sighting. In addition to the date, she would like to add table filters for the city, state, country, and shape of the anomalies.  
+Dana, a data journalist and UFO enthusiast, created a webpage and dynamic table to share UFO sighting information with others.  But she’d like to provide a more in-depth analysis of UFO sightings by allowing users to filter for multiple criteria at the same time rather than just the date of the sighting. In addition to the date, she would like to add table filters for the city, state, country, and shape of the anomalies.  
 
 The original table only has a filter based on date, using a button for entry:
 
