@@ -48,6 +48,22 @@ The additional filters should look like the following upon completion:
 
 ![completed](https://github.com/catsdata/UFOs/blob/main/static/images/completed_challenge.PNG)
 
+Filters update the table as they are entered/removed.
+
+In this case, we first filtered by 1/1/2010 by typing in the date only and hitting enter.
+
+![completed](https://github.com/catsdata/UFOs/blob/main/static/images/single.PNG)
+
+We then filtered down to only California sightings by typing in "ca" in the state field and hitting enter.
+
+![completed](https://github.com/catsdata/UFOs/blob/main/static/images/double.PNG)
+
+Lastly we filtered down to the city by entering "el cajon" in the city field and hitting enter.
+
+![completed](https://github.com/catsdata/UFOs/blob/main/static/images/triple.PNG)
+
+The table will again update as you delete your entries.
+
 
 ## Summary
 
