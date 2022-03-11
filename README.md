@@ -11,7 +11,7 @@
 </p>
 </details>
 
-![current](https://github.com/catsdata/UFOs/blob/main/static/images/nasa.PNG)
+![current](https://github.com/catsdata/UFOs/blob/main/static/images/nasa.jpg)
 
 ## Overview
 
