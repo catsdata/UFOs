@@ -15,6 +15,15 @@
 
 Dana’s webpage and dynamic table are working as intended, but she’d like to provide a more in-depth analysis of UFO sightings by allowing users to filter for multiple criteria at the same time. In addition to the date, you’ll add table filters for the city, state, country, and shape.
 
+The original table only has a filter based on date, using a button for entry:
+
+![current](https://github.com/catsdata/UFOs/blob/main/static/images/original.PNG)
+
+The additional filters should look like the following upon completion:
+
+![current](https://github.com/catsdata/UFOs/blob/main/static/images/challenge_example.png)
+
+
 ## Resources
 
 - Data Source:
@@ -29,16 +38,15 @@ Dana’s webpage and dynamic table are working as intended, but she’d like to 
 ## Results
 
 **The following changes have been made to accomodate the additional filters:**
-    - The list element that creates the button is removed, and there are five list elements for filtering in the index.html file. (20 pt)
-    - The event listener is modified to detect changes to each filter in the app.js file. (10 pt)
-    - The updateFilters() function saves the element, value, and the id of the filter that was changed. (20 pt)
-    - The filterTable() function loops through all of the filters and keeps any data that matches the filter values. (20 pt)
-    - The webpage filters the table correctly based on user input. (20 pt)
-    - Yeah.... that adds to 90, not 80.  smh
+- The list element that creates the button was removed.
+- Five list elements for filtering were updated in the index.html file.
+- An event listener was modified to detect changes to each filter in the app.js file.
+- The updateFilters() function saved the element, value, and the id of the filter that was changed.
+- The filterTable() function looped through all of the filters to keep any data that matches the filter values. 
 
-**MAKE IT LOOK LIKE THIS**
+**The table filters now look like this:**
 
-![sample](https://github.com/catsdata/UFOs/blob/main/static/images/challenge_example.png)
+![completed](https://github.com/catsdata/UFOs/blob/main/static/images/completed_challenge.PNG)
 
 
 ## Summary
